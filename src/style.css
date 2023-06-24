@@ -1,0 +1,141 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Serif', serif;
+    background-color: #23252C;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 100%;
+    background-color: #1A1B21;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.profile {
+    width: 400px;
+    height: 300px;
+    border-radius: 15px 15px 0 0;
+    image-rendering: auto;
+    object-fit: cover;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1px;
+}
+.name {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.job {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #F3BF99;
+    margin-top: 5px;
+}
+
+.site {
+    font-size: 11px;
+    font-weight: lighter;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.mail {
+    display: flex;
+    width: 250px;
+    height: 34px;
+    padding: 10px 11px 10px 13px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    color: #374151;
+    background-color: #ffffff;
+    stroke: #82868b;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.fa-envelope {
+    margin-right: 5px;
+    color: #1E1F26;
+}
+
+.about{
+    color: #ffffff;
+    margin: 30px 30px 10px 30px;
+}
+
+.about label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about p{
+    display: flex;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.interest{
+    color: #ffffff;
+    margin: 1px 30px 10px 30px;
+}
+
+.interest label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.interest p{
+    display: flex;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #161619;
+    width: 400px;
+    height: 100px;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: #918E9B;
+    border-radius: 5px;
+}
+
+
+.fa-instagram {
+    margin-left: 0px;
+}
